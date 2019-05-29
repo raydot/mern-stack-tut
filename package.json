@@ -1,9 +1,10 @@
 {
-  "name": "backend",
+  "name": "mern-stack-tut",
   "version": "1.0.0",
-  "description": "MERN stack backend with Mongo",
+  "description": "Mern stack tutorial.  See README for details",
   "main": "index.js",
   "scripts": {
+    "start": "concurrently \"node ./backend/server.js\" \"cd client && npm start\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -12,8 +13,8 @@
   },
   "keywords": [
     "mern",
-    "react",
-    "mongo"
+    "mongoose",
+    "react"
   ],
   "author": "Dave Kanter",
   "license": "GPL-3.0",
@@ -22,10 +23,7 @@
   },
   "homepage": "https://github.com/raydot/mern-stack-tut#readme",
   "dependencies": {
-    "body-parser": "^1.19.0",
-    "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "mongoose": "^5.5.11",
-    "morgan": "^1.9.1"
+    "axios": "^0.18.0",
+    "concurrently": "^4.1.0"
   }
 }

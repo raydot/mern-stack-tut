@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/raydot/mern-stack-tut#readme",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "concurrently": "^4.1.0"
   }
 }
